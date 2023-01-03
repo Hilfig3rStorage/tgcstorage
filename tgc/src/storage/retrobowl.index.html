@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -49,11 +50,6 @@ body {
 
 ::-webkit-scrollbar-track {
   background: #171717;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #FFFFFF;
-  border-radius:15px;
 }
 
 div.loaded-overlay {
@@ -375,21 +371,6 @@ h1.loader-logo-title {
  filter: drop-shadow(0px 0px 6px #8515b1);
 }
 
-img.loader-logo-image {
-  width: 135px;
-  height: 135px;
-  filter: drop-shadow(1px -1px 5px #FFFF);
-}
-
-div.loader-bar {
-  width: 100%;
-  height: 10px;
-  background: linear-gradient(45deg, grey, white);
-  border-radius: 5px;
-  filter: drop-shadow(0 0 5px #1c1c1c);
-  animation: loader-bar-animation 1.5s linear forwards;
-}
-
 /* Animations */
 
 @keyframes loader-bar-animation {
@@ -638,14 +619,50 @@ div.loader-bar {
     </div>
   </nav>
   <!-- Loader -->
+  
+  
+  <style>
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #857000, #FFD700);
+  border-radius:15px;
+}
+
+img.loader-logo-image {
+  width: 135px;
+  height: 135px;
+  filter: drop-shadow(1px -1px 5px #FFD700);
+}
+
+div.loader-bar {
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(45deg, #857000, #FFD700);
+  border-radius: 5px;
+  filter: drop-shadow(0 0 5px #1c1c1c);
+  animation: loader-bar-animation 1.5s linear forwards;
+}
+
+</style>
   <div class="loader">
     <div class="loader-logo">
-      <img src="https://github.com/hilfig3r/images/blob/main/LogoForSite2Christmas.png?raw=true" class="loader-logo-image"></img>
+    
+    
+  <!-- Logo -->
+      <img src="https://github.com/Hilfig3rStorage/Images/blob/main/newyearslogo.png?raw=true" class="loader-logo-image"></img>
+  <!-- End Of Logo -->
+
+
     </div>
     <div class="loader-bar"></div>
   </div>
   <div class="loaded-overlay"></div>
+  
+  
   <!-- Page Contents -->
+  
+  
+  
+ 
 <!DOCTYPE html>
 <html>
 <head>
