@@ -1,5 +1,3 @@
-
-<script>
 //Checking if the page is loaded in an iframe
 
 if(window.self != window.top) {
@@ -27,4 +25,3 @@ window.location.href = "https://example.com/unbed/blocked/index.html";
 }
 
 } 
-</script>
